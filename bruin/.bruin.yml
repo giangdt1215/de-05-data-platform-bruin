@@ -1,0 +1,20 @@
+default_environment: default
+environments:
+    default:
+        connections:
+            duckdb:
+                - name: duckdb-default
+                  path: duckdb.db
+            chess:
+                - name: chess-default
+                  players:
+                    - FabianoCaruana
+                    - Hikaru
+                    - MagnusCarlsen
+                    - GothamChess
+                    - DanielNaroditsky
+                    - AnishGiri
+                    - Firouzja2003
+                    - LevonAronian
+                    - WesleySo
+                    - GarryKasparov
